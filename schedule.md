@@ -1,11 +1,12 @@
-| Time   | Goal | Notes |
+| Time   | Goal | Notes (Who works on it? something like that lol?) |
 | -------| --- | --- |
-| 7:00 pm | | |
-| 8:00 pm | | |
-| 9:00 pm | | |
+| 6:45 pm | Begin... | All |
+| 7:00 pm | Get coffee | Shane |
+| 8:00 pm | IDEA DUE NO LATER | All |
+| 9:00 pm | Get more coffee | Shane |
 | 10:00 pm | | |
 | 11:00 pm | | |
-| 12:00 am | | |
+| 12:00 am | Sleep or no? | |
 | 1:00 am | | |
 | 2:00 am | | |
 | 3:00 am | | |
