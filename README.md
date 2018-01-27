@@ -1,5 +1,5 @@
 # Minnehack2018
 
-<h5>Remember why we are here... To win.</h5>
+<p>Remember why we are here... To win.</p>
 
 <img src="prize.jpg" width="40%" height="40%">
