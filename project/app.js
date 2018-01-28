@@ -18,6 +18,8 @@ const index = require('./routes/index');
 const db = require('./routes/db');
 const upload = require('./routes/upload');
 
+const pageIndex = require('./routes');
+
 const app = express();
 
 // view engine setup
