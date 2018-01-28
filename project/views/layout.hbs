@@ -231,7 +231,8 @@
           <a class="btn btn-light btn-xl js-scroll-trigger" href="https://minnehacksport.azurewebsites.net/" id="rsk_ass_btn">Find out now!</a>
 
           <p class="text-faded mb-4" id="user_risk_as"></p>
-          {{!-- <div id="myProgress">
+          {{!--
+          <div id="myProgress">
             <div id="myBar"> </div>
           </div> --}}
 
@@ -389,6 +390,7 @@
   <script>
     var risk = 0.6;
     $(document).ready(function () {
+      var events = $('#calendar').fullCalendar('clientEvents');
 
 
       $('#calendar').fullCalendar({
@@ -396,6 +398,13 @@
           var r = confirm("Delete " + calEvent.title);
           if (r === true) {
             $('#calendar').fullCalendar('removeEvents', calEvent._id);
+            var newEvents = $('#calendar').fullCalendar('clientEvents');
+            newEvents[13].color = 'lime';
+            newEvents[14].color = 'yellow';
+            newEvents[15].color = 'orange';
+            newEvents[16].color = 'red ';
+            $('#calendar').fullCalendar('updateEvents', newEvents)
+
           }
         },
         header: {
@@ -408,15 +417,25 @@
         select: function (start, end) {
           var title = prompt('Event Title:');
           console.log($('#calendar').fullCalendar('clientEvents'));
-
           var eventData;
           if (title) {
             eventData = {
               title: title,
               start: start,
-              end: end
+              end: end,
+              color: 'yellow'
             };
+            console.log(events[13])
+            console.log(events);
+            var newEvents = $('#calendar').fullCalendar('clientEvents');
+            newEvents[13].color = 'yellow';
+            newEvents[14].color = 'orange';
+            newEvents[15].color = 'red';
+            newEvents[16].color = 'red ';
+
             $('#calendar').fullCalendar('renderEvent', eventData, true); // stick? = true
+            $('#calendar').fullCalendar('updateEvents', newEvents)
+
           }
           $('#calendar').fullCalendar('unselect');
         },
