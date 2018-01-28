@@ -5,6 +5,8 @@ function getRiskAss(name) {
 }
 $('#rsk_ass_btn').on('click',function() {
 
-  $('#user_risk_as').text("Hello " + user_name + " your current risk assment is: " + getRiskAss(user_name))
+  $('#user_risk_as').text("Hello " + user_name + " your current risk assment is: " + getRiskAss(user_name));
+
+  
 
 });
