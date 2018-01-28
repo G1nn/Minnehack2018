@@ -12,8 +12,8 @@ if op fails, the participants splits the peaches that the op put in.
 5. study groups finder; past syllabus/tests/exams database
 
 6. mood monitoring app for depression using IBM language understanding API
-Depression typically makes ppl avoid social contact. This app analyzes your chat log (text/fb messenger/etc) for sentiment,
-and provides help based on that.
+Depression typically makes ppl avoid social contact. This app analyzes your text messages for sentiment to see 
+if you are more angry/anxious/depressed than usual, and provides help (suicide hotlines/reminder/medication tips/guided paths/therapy services near you)
 https://console.bluemix.net/docs/services/natural-language-understanding/getting-started.html#getting-started-tutorial
 
 7. Sth with the petfinder API https://www.petfinder.com/developers/api-docs
