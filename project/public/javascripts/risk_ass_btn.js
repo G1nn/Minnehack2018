@@ -1,4 +1,4 @@
-var user_name = "John"; // hard coded value
+var user_name = "Tom Brady"; // hard coded value
 
 function getRiskAss(name) {
   return 0.6;
